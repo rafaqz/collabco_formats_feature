@@ -16,13 +16,13 @@ function collabco_formats_feature_filter_default_formats() {
     'name' => 'Filtered HTML',
     'cache' => 1,
     'status' => 1,
-    'weight' => 0,
+    'weight' => -10,
     'filters' => array(
       'filter_html' => array(
         'weight' => -10,
         'status' => 1,
         'settings' => array(
-          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd>',
+          'allowed_html' => '<a> <em> <strong> <cite> <s> <sub> <sup> <blockquote> <code> <p> <pre> <ul> <ol> <li> <dl> <dt> <dd> <h1> <h2> <h3> <h4> <h5> <h6> <p> <table> <tbody> <td> <tr> <hr> <div>',
           'filter_html_help' => 1,
           'filter_html_nofollow' => 0,
         ),
@@ -53,7 +53,7 @@ function collabco_formats_feature_filter_default_formats() {
     'name' => 'Full HTML',
     'cache' => 1,
     'status' => 1,
-    'weight' => 0,
+    'weight' => -8,
     'filters' => array(
       'filter_url' => array(
         'weight' => 0,
@@ -76,7 +76,7 @@ function collabco_formats_feature_filter_default_formats() {
     'name' => 'Pure HTML',
     'cache' => 1,
     'status' => 1,
-    'weight' => 11,
+    'weight' => -7,
     'filters' => array(),
   );
 
@@ -86,7 +86,7 @@ function collabco_formats_feature_filter_default_formats() {
     'name' => 'Plain text',
     'cache' => 1,
     'status' => 1,
-    'weight' => 10,
+    'weight' => -9,
     'filters' => array(
       'filter_html_escape' => array(
         'weight' => 0,
