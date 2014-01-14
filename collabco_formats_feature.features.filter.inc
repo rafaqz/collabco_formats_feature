@@ -22,7 +22,7 @@ function collabco_formats_feature_filter_default_formats() {
         'weight' => -10,
         'status' => 1,
         'settings' => array(
-          'allowed_html' => '<a> <img> <em> <strong> <cite> <s> <blockquote> <ul> <li> <dl> <dt> <dd> <h3> <h4> <h5> <h6> <p> <pre>',
+          'allowed_html' => '<a> <img> <em> <strong> <cite> <s> <blockquote> <ul> <ol> <li> <dl> <dt> <dd> <h3> <h4> <h5> <h6> <p> <br> <pre>',
           'filter_html_help' => 1,
           'filter_html_nofollow' => 0,
         ),
