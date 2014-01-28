@@ -6,6 +6,7 @@ project = collabco_formats_feature
 dependencies[] = features
 dependencies[] = filter
 dependencies[] = image
+dependencies[] = media
 features[ckeditor_profile][] = CKEditor Global Profile
 features[ckeditor_profile][] = Filtered
 features[ckeditor_profile][] = Full
