@@ -27,7 +27,7 @@ function collabco_formats_feature_ckeditor_profile_defaults() {
         'toolbar' => '[
     [\'Cut\',\'Copy\',\'Paste\',\'-\',\'SpellChecker\',\'Scayt\'],
     [\'Undo\',\'Redo\'],
-    [\'Image\'],
+    [\'Image\',\'Media\',\'MediaEmbed\'],
     [\'NumberedList\',\'BulletedList\'],
     \'/\',
     [\'Format\'],
@@ -67,7 +67,32 @@ function collabco_formats_feature_ckeditor_profile_defaults() {
         'scayt_autoStartup' => 'f',
         'theme_config_js' => 'f',
         'js_conf' => '',
-        'loadPlugins' => array(),
+        'loadPlugins' => array(
+          'media' => array(
+            'name' => 'media',
+            'desc' => 'Plugin for inserting images from Drupal media module',
+            'path' => '%plugin_dir%media/',
+            'buttons' => array(
+              'Media' => array(
+                'label' => 'Media',
+                'icon' => 'images/icon.gif',
+              ),
+            ),
+            'default' => 'f',
+          ),
+          'mediaembed' => array(
+            'name' => 'mediaembed',
+            'desc' => 'Plugin for inserting Drupal embeded media',
+            'path' => '%plugin_dir%mediaembed/',
+            'buttons' => array(
+              'MediaEmbed' => array(
+                'label' => 'MediaEmbed',
+                'icon' => 'images/icon.png',
+              ),
+            ),
+            'default' => 'f',
+          ),
+        ),
       ),
       'input_formats' => array(
         'filtered_html' => 'Filtered HTML',
