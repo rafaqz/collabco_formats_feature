@@ -110,7 +110,7 @@ function collabco_formats_feature_ckeditor_profile_defaults() {
     [\'Source\'],
     [\'Cut\',\'Copy\',\'Paste\',\'PasteText\',\'PasteFromWord\',\'-\',\'SpellChecker\',\'Scayt\'],
     [\'Undo\',\'Redo\',\'Find\',\'Replace\',\'-\',\'SelectAll\',\'RemoveFormat\'],
-    [\'Image\',\'Media\',\'Table\',\'HorizontalRule\',\'SpecialChar\'],
+    [\'Media\',\'MediaEmbed\',\'Image\',\'Table\',\'HorizontalRule\',\'SpecialChar\'],
     [\'Maximize\',\'ShowBlocks\'],
     \'/\',
     [\'Format\'],
