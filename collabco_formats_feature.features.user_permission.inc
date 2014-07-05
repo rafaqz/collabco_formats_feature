@@ -7,7 +7,7 @@
 /**
  * Implements hook_user_default_permissions().
  */
-function collabco_core_feature_user_default_permissions() {
+function collabco_formats_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'show format selection for comment'.
