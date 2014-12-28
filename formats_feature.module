@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the Collabco Formats Feature feature.
+ * Code for the Formats Feature.
  */
 
 include_once 'formats_feature.features.inc';
