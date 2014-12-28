@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_core_feature.features.user_permission.inc
+ * core_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function collabco_core_feature_user_default_permissions() {
+function core_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'show format selection for comment'.

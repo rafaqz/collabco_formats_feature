@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_formats_feature.features.ckeditor_profile.inc
+ * formats_feature.features.ckeditor_profile.inc
  */
 
 /**
  * Implements hook_ckeditor_profile_defaults().
  */
-function collabco_formats_feature_ckeditor_profile_defaults() {
+function formats_feature_ckeditor_profile_defaults() {
   $data = array(
     'CKEditor Global Profile' => array(
       'name' => 'CKEditor Global Profile',

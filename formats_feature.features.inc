@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_formats_feature.features.inc
+ * formats_feature.features.inc
  */
 
 /**
  * Implements hook_image_default_styles().
  */
-function collabco_formats_feature_image_default_styles() {
+function formats_feature_image_default_styles() {
   $styles = array();
 
   // Exported image style: content_thumb.

@@ -4,4 +4,4 @@
  * Code for the Collabco Formats Feature feature.
  */
 
-include_once 'collabco_formats_feature.features.inc';
+include_once 'formats_feature.features.inc';
