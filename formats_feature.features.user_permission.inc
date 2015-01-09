@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * core_feature.features.user_permission.inc
+ * formats_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function core_feature_user_default_permissions() {
+function formats_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'show format selection for comment'.
