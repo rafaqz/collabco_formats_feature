@@ -38,4 +38,3 @@ features[user_permission][] = use text format email
 features[user_permission][] = use text format filtered_html
 features[user_permission][] = use text format full_html
 features[user_permission][] = use text format php_code
-project path = profiles/collabco/modules/features
