@@ -19,6 +19,24 @@ function formats_feature_user_default_permissions() {
     'module' => 'ckeditor',
   );
 
+  // Exported permission: 'administer filters'.
+  $permissions['administer filters'] = array(
+    'name' => 'administer filters',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'filter',
+  );
+
+  // Exported permission: 'administer image styles'.
+  $permissions['administer image styles'] = array(
+    'name' => 'administer image styles',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'image',
+  );
+
   // Exported permission: 'customize ckeditor'.
   $permissions['customize ckeditor'] = array(
     'name' => 'customize ckeditor',
