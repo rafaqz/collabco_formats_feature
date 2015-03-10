@@ -10,6 +10,42 @@
 function formats_feature_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'administer ckeditor'.
+  $permissions['administer ckeditor'] = array(
+    'name' => 'administer ckeditor',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'ckeditor',
+  );
+
+  // Exported permission: 'administer filters'.
+  $permissions['administer filters'] = array(
+    'name' => 'administer filters',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'filter',
+  );
+
+  // Exported permission: 'administer image styles'.
+  $permissions['administer image styles'] = array(
+    'name' => 'administer image styles',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'image',
+  );
+
+  // Exported permission: 'customize ckeditor'.
+  $permissions['customize ckeditor'] = array(
+    'name' => 'customize ckeditor',
+    'roles' => array(
+      'Admin' => 'Admin',
+    ),
+    'module' => 'ckeditor',
+  );
+
   // Exported permission: 'show format selection for comment'.
   $permissions['show format selection for comment'] = array(
     'name' => 'show format selection for comment',
